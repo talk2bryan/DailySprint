@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comp3350.dailysprint">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".presentation.HomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.CreateUserProfile"
+            android:label="@string/title_activity_create_user_profile"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.UserOptions"
+            android:label="@string/title_activity_user_options"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.ViewHistory"
+            android:label="History"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.LogHistory"
+            android:label="Log History"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.CreatePassword"
+            android:label="Create Password"
+            android:parentActivityName=".presentation.CreateUserProfile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.CreateUserProfile" />
+        </activity>
+        <activity
+            android:name=".presentation.EnterPassword"
+            android:label="Enter Password"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.ViewSchedule"
+            android:label="Schedule"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.ViewFriends"
+            android:label="Friends"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.FriendRequest"
+            android:label="@string/requestfriend"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.ViewMessages"
+            android:label="@string/messages"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.FriendResponse"
+            android:label="@string/friendresponse"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".presentation.UserSettings"
+            android:label="@string/title_activity_user_settings"
+            android:parentActivityName=".presentation.HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comp3350.dailysprint.presentation.HomeScreen" />
+        </activity>
+        <activity android:name=".presentation.GenerateSchedule"></activity>
+    </application>
+
+</manifest>

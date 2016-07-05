@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Daily Sprint</string>
+    <string name="create">Create</string>
+    <string name="schedule">Schedule</string>
+    <string name="history">History</string>
+    <string name="friends">Friends</string>
+    <string name="settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="select">Select</string>
+    <string name="login">Login</string>
+    <string name="logactivity">Log Activity</string>
+    <string name="fatalError">Fatal error</string>
+    <string name="warning">Warning</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="complete">Begin The Journey</string>
+    <string name="next">Continue</string>
+    <string name="enter">Enter</string>
+    <string name="generate">Generate</string>
+    <string name="today">Today:</string>
+    <string name="requestfriend">Request Friend</string>
+    <string name="deletefriend">Delete Friend</string>
+    <string name="messages">Messages</string>
+    <string name="sendmessage">Send Message</string>
+    <string name="deletemessage">Delete Message</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="friendresponse">Friend Response</string>
+    <string name="title_activity_create_user_profile">Create User Profile</string>
+    <string name="title_activity_user_options">User Options</string>
+    <string name="title_activity_user_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="user_profile">USERPROFILE</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="edit_weight_kg">Edit Weight (kg):</string>
+    <string name="accept_friend_request">Do You Accept The Friend Request?</string>
+</resources>
